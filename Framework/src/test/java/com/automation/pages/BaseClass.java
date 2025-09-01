@@ -23,7 +23,7 @@ public class BaseClass {
 	 public ConfigDataProvider config;
 	 public ExtentReports report;
 	 public ExtentTest logger;
-	 
+	 //Before suite method
 	 @BeforeSuite
 	 public void setupSuite()
 	 {
